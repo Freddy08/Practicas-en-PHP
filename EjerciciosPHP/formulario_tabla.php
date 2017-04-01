@@ -1,3 +1,4 @@
+<!DOCTIPE html>
 <html lang="es">
     <head>
         <title>Ejercicios de PHP</title>
@@ -17,6 +18,19 @@
             <li><a href="ejercicio9.php">Ejercicio 9</a></li>
             <li><a href="ejercicio10.php">Ejercicio 10</a></li>
         </ul>
+         <br/>
+        <br/>
+        <br/>
+        <?php
+            $tabla = $_POST['tabla'];
+            echo '<h2>Tabla de multiplicar del '.$tabla.'<br>';
+            for($i=1; $i<=10; $i++)
+            {
+                $resul=($tabla*$i);
+                echo $tabla." x ".$i." = ".$resul."<br>";
+            }
+        ?>
+        <br/>
+        <p class="piePagina">NOMBRE DEL ALUMNO: Freddy Serrano Ochoa</p>
     </body>
-    <p class="piePagina">NOMBRE DEL ALUMNO: Freddy Serrano Ochoa</p>
 </html>

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
     <head>
         <title>Ejercicios de PHP</title>
@@ -17,6 +18,22 @@
             <li><a href="ejercicio9.php">Ejercicio 9</a></li>
             <li><a href="ejercicio10.php">Ejercicio 10</a></li>
         </ul>
+         <br/>
+        <br/>
+        <br/>
+        <?php
+            $nombre = $_POST['nombre'];
+            $edad = $_POST['edad'];
+            echo 'Tu nombre es: '.$nombre.'.     ';
+            if($edad<=18) 
+            {
+                echo 'Eres mayor de edad, tienes: '.$edad.' ';
+            }else 
+            {
+                echo 'Eres menor de edad, tienes: '.$edad.' ';
+            }
+        ?>
+        <br/>
+        <p class="piePagina">NOMBRE DEL ALUMNO: Freddy Serrano Ochoa</p>
     </body>
-    <p class="piePagina">NOMBRE DEL ALUMNO: Freddy Serrano Ochoa</p>
 </html>

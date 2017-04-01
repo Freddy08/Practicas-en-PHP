@@ -1,3 +1,4 @@
+<!DOCTIPE html>
 <html lang="es">
     <head>
         <title>Ejercicios de PHP</title>
@@ -17,6 +18,23 @@
             <li><a href="ejercicio9.php">Ejercicio 9</a></li>
             <li><a href="ejercicio10.php">Ejercicio 10</a></li>
         </ul>
+         <br/>
+        <br/>
+        <br/>
+        <?php
+            $nombre=$_POST['nombre'];
+            $asunto=$_POST['asunto'];
+            $mensaje=$_POST['mensaje'];
+            echo $nombre." ha dicho: ".$mensaje;
+            if(mail('ferrariunach@outlook.es',$asunto, $mensaje))
+            {
+                echo "<br>Enviado con exito!!!";
+            }else
+            {
+                echo "<br>Envio erroneo";
+            }
+        ?>
+        <br/>
+        <p class="piePagina">NOMBRE DEL ALUMNO: Freddy Serrano Ochoa</p>
     </body>
-    <p class="piePagina">NOMBRE DEL ALUMNO: Freddy Serrano Ochoa</p>
 </html>

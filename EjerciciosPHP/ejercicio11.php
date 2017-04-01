@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
     <head>
         <title>Ejercicios de PHP</title>
@@ -17,6 +18,30 @@
             <li><a href="ejercicio9.php">Ejercicio 9</a></li>
             <li><a href="ejercicio10.php">Ejercicio 10</a></li>
         </ul>
-    </body>
+         <h1>PROGRAMACION DE APLICACIONES WEB</h1>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h4>Introducir el número de la tabla de multiplicar y mostrar en pantalla la tabla completa.</h4>
+        <br/>
+        <br/>
+        <div>
+            <form method="post" action="formulario_enviar.php">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <br/><br/>
+            <label for="asunto">Asunto</label>
+            <input type="text" name="asunto" id="asunto">
+            <br/><br/>
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            <br/><br/>
+            <input type="submit">
+        </form>
+        </div>
+        <br/>
     <p class="piePagina">NOMBRE DEL ALUMNO: Freddy Serrano Ochoa</p>
+    </body>
 </html>

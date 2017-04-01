@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
     <head>
         <title>Ejercicios de PHP</title>
@@ -17,6 +18,26 @@
             <li><a href="ejercicio9.php">Ejercicio 9</a></li>
             <li><a href="ejercicio10.php">Ejercicio 10</a></li>
         </ul>
-    </body>
+         <h1>PROGRAMACION DE APLICACIONES WEB</h1>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h4>Desarrollar un formulario que permita calcular la distancia que recorrer un proyectil en un determinado tiempo, para ello es necesario indicar el tiempo y la velocidad en Metro/Segundos</h4>
+        <div>
+            <form name="formulario" method="post" action="formulario_velocidad.php">
+                
+                <P style="font-size:20px">Cuanto tiempo tardo:</P>  <input type="text" name="tiempo" value="">
+                <br/>
+                <br/>
+                <P style="font-size:20px">Velocidad del disparo:</P> <input type="text" name="velocidad" value="">
+                <br/>
+                <br/>
+                <input type="submit" value="enviar"/>
+            </form>
+        </div>
+        <br/>
     <p class="piePagina">NOMBRE DEL ALUMNO: Freddy Serrano Ochoa</p>
+    </body>
 </html>

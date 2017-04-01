@@ -1,3 +1,4 @@
+<!DOCTIPE html>
 <html lang="es">
     <head>
         <title>Ejercicios de PHP</title>
@@ -17,6 +18,16 @@
             <li><a href="ejercicio9.php">Ejercicio 9</a></li>
             <li><a href="ejercicio10.php">Ejercicio 10</a></li>
         </ul>
+         <br/>
+        <br/>
+        <br/>
+        <?php
+            $tiempo1 = $_POST['tiempo'];
+            $velocidad1 = $_POST['velocidad'];
+            $resultado = ($tiempo1 * $velocidad1);
+            echo 'El resultado es: '.$resultado;
+        ?>
+        <br/>
+        <p class="piePagina">NOMBRE DEL ALUMNO: Freddy Serrano Ochoa</p>
     </body>
-    <p class="piePagina">NOMBRE DEL ALUMNO: Freddy Serrano Ochoa</p>
 </html>

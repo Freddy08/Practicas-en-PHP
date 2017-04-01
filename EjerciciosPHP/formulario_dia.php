@@ -18,30 +18,48 @@
             <li><a href="ejercicio9.php">Ejercicio 9</a></li>
             <li><a href="ejercicio10.php">Ejercicio 10</a></li>
         </ul>
-        
-         <h1>PROGRAMACION DE APLICACIONES WEB</h1>
+         <br/>
         <br/>
         <br/>
-        <br/>
-        <br/>
-        <br/>
-        <h4>Mostrar en pantalla una tabla de 10 por 10 con los números del 1 al 100</h4>
         <?php
-            echo "<table border=1>";
-            $n=1;
-            for($n1=1; $n1<=10; $n1++)
+            $dia = $_POST['dia'];
+            if($dia>=8)
             {
-                echo "<tr>";
-                for($n2=1; $n2<=10; $n2++)
-                {
-                    echo "<td>", $n, "</td>";
-                    $n=$n+1;
-                }
-                echo "</tr>";
+                echo 'El numero es mayor a 7, por favor vuelva a poner el numero de nuevo';
             }
-            echo "</table>";
+            else
+            {
+                if($dia==1) 
+                {   
+                    echo 'Es lunes';
+                }
+                else if($dia==2) 
+                {
+                echo 'Es martes';
+                }
+                else if($dia==3) 
+                {
+                    echo 'Es miercoles';
+                }
+                else if($dia==4) 
+                {
+                    echo 'Es jueves';
+                }
+                else if($dia==5) 
+                {
+                    echo 'Es viernes';
+                }
+                else if($dia==6) 
+                {
+                    echo 'Es sabado';
+                }
+                else if($dia==7) 
+                {
+                    echo 'Es domingo';
+                }
+            }
         ?>
         <br/>
-    <p id="piePagina">NOMBRE DEL ALUMNO: Freddy Serrano Ochoa</p>
+        <p class="piePagina">NOMBRE DEL ALUMNO: Freddy Serrano Ochoa</p>
     </body>
 </html>

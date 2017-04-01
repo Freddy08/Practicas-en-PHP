@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
     <head>
         <title>Ejercicios de PHP</title>
@@ -17,6 +18,23 @@
             <li><a href="ejercicio9.php">Ejercicio 9</a></li>
             <li><a href="ejercicio10.php">Ejercicio 10</a></li>
         </ul>
-    </body>
+         <h1>PROGRAMACION DE APLICACIONES WEB</h1>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <h4>Desarrollar un formulario que pida un número del 1 al 7 y diga el día de la semana correspondiente.</h4>
+        <div>
+            <form name="formulario" method="post" action="formulario_dia.php">
+                
+                <P style="font-size:20px">Cuanto Dime un numero del 1 al 7:</P>  <input type="text" name="dia" value="">
+                <br/>
+                <br/>
+                <p><input type="submit" value="enviar"/>  </p>
+            </form>
+        </div>
+        <br/>
     <p class="piePagina">NOMBRE DEL ALUMNO: Freddy Serrano Ochoa</p>
+    </body>
 </html>
